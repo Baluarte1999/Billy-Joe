@@ -1,0 +1,55 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Product container styling */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/* Individual product styling */
+.product {
+    width: 250px;        /* Fixed width for product container */
+    margin: 20px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Product image styling */
+.product-img {
+    width: 100%;           /* Make image fill the container width */
+    height: 200px;         /* Fixed height for the image */
+    object-fit: cover;     /* Ensure the image covers the area without distortion */
+    border-bottom: 1px solid #444;
+}
+
+/* Product info styling */
+.product-info {
+    padding: 15px;
+}
+
+/* Product name styling */
+.product-info h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #f39c12;
+}
+
+/* Product price styling */
+.price {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 5px;
+}
